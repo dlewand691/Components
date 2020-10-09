@@ -1,0 +1,489 @@
+extend __LAYOUT-TEMPLATE.pug
+block vars
+  - var pageTitle = "Colors"
+
+block content
+  - var siteURL = "https://www.dannylewandowski.com/_cog-DEV/_PROTOTYPING/Components/_BUILD/";
+  h1!= pageTitle
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Primary Brand Colors
+      .cell.p3.bg-blue
+        p.m0
+          strong Blue 
+          br
+          | #0033A0
+          br
+          | $blue
+      .cell.p3.auto.bg-blue-dark
+        p.m0
+          strong Blue, Dark
+          br
+          | #000063
+          br
+          | $blue-dark
+      .cell.p3.auto.bg-blue-medium(style="background: #2d67ff;")
+        p.m0
+          strong Blue, Medium
+          br
+          | #2D67FF
+          br
+          | $blue-medium
+      .cell.p3.auto.bg-blue-light.text-white(style="background: #328dff;")
+        p.m0
+          strong Blue, Light
+          br
+          | #328DFF
+          br
+          | $blue-light
+    .grid-x
+      .cell.p3.auto.bg-black
+        p.m0
+          strong Black
+          br
+          | #000000
+          br
+          | $black
+        p.m0: small: em (Default text color)
+      .cell.p3.auto.bg-gray
+        p.m0
+          strong Gray
+          br
+          | #666666
+          br
+          | $gray
+      .cell.p3.auto.bg-white
+        p.m0
+          strong White
+          br
+          | #FFFFFF
+          br
+          | $white
+        p.m0: small: em (Default background color)
+      .cell.p2.px3.bg-grd-rl-dark-blue-medium
+        p.m0
+          strong Medium Blue to Blue Gradient
+        p.m0: small: em (Default gradient style)
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Secondary/Alternates
+      .cell.p2.auto.bg-green(style="background: #00B140;")
+        p.m0
+          strong Green (Default) 
+          br
+          | #00B140
+          br
+          | $green
+        p.m0: small: em (Used only for linked elements, ie buttons and links)
+      .cell.p2.auto.bg-green-light(style="background: #00E452;")
+        p.m0
+          strong Green, Light 
+          br
+          | #00E452
+          br
+          | $green-light
+        p.m0: small: em (Used on colored backgrounds where more visual contrast is needed for readability)
+      .cell.p2.auto.bg-green-dark(style="background: #007E2E;")
+        p.m0
+          strong Green, Dark 
+          br
+          | #007E2E
+          br
+          | $green-dark
+    .grid-x
+      .cell.p2.auto.bg-gray-dark(style="background: #333333;")
+        p.m0
+          strong Gray, Dark 
+          br
+          | #333333
+          br
+          | $gray-dark
+      .cell.p2.auto.bg-gray-medium(style="background: #B3B3B3;")
+        p.m0
+          strong Gray, Medium 
+          br
+          | #B3B3B3
+          br
+          | $gray-medium
+        p.m0: small: em (Default for borders)
+      .cell.p2.auto.bg-gray-light(style="background: #D9D9D9;")
+        p.m0
+          strong Gray, Light 
+          br
+          | #D9D9D9
+          br
+          | $gray-light
+      .cell.p2.auto.bg-gray-lighter(style="background: #E6E6E6;")
+        p.m0
+          strong Gray, Lighter 
+          br
+          | #E6E6E6
+          br
+          | $gray-lighter
+      .cell.p2.auto.bg-gray-lightest(style="background: #F2F2F2;")
+        p.m0
+          strong Gray, Lightest 
+          br
+          | #F2F2F2
+          br
+          | $gray-lightest
+    .grid-x
+      .cell.p2.auto.bg-blue-bright(style="background: #6DCCFF;")
+        p.m0
+          strong Blue, Bright 
+          br
+          | #6DCCFF
+          br
+          | $blue-bright
+        p.m0: small: em (Used for new battleground sites, ie AI)
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Gray progression 
+          p: em (for reference)
+      .cell.p2.auto.bg-black
+        p.m0.small Black
+      .cell.p2.auto.bg-gray-dark(style="background: #333333;")
+        p.m0.small Gray, Dark
+      .cell.p2.auto.bg-gray
+        p.m0.small Gray
+      .cell.p2.auto.bg-gray-medium(style="background: #B3B3B3;")
+        p.m0.small Gray, Medium
+      .cell.p2.auto.bg-gray-light(style="background: #D9D9D9;")
+        p.m0.small Gray, Light
+      .cell.p2.auto.bg-gray-lighter(style="background: #E6E6E6;")
+        p.m0.small Gray, Lighter
+      .cell.p2.auto.bg-gray-lightest(style="background: #F2F2F2;")
+        p.m0.small Gray, Lightest
+      .cell.p2.auto.bg-white.bd1
+        p.m0.small White
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Background options
+    .grid-x.medium-up-4(style="background: url("+siteURL+"/images/transparent-pattern.gif)")
+      .cell.p2.bg-blue
+        p.m0
+          strong Blue
+          br
+          | $bg-blue
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-blue-85
+        p.m0
+          strong Blue, 85% opacity
+          br
+          | $bg-blue-85
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-blue-dark
+        p.m0
+          strong Blue, dark
+          br
+          | $bg-blue-dark
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-blue-dark-85
+        p.m0
+          strong Blue, dark, 85% opacity
+          br
+          | $bg-blue-dark-85
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-white
+        p.m0
+          strong White
+          br
+          | $bg-white
+          br
+          small: em (Text defaults to black)
+        a.m0.small(href): em (Links default to green)
+      .cell.p2.bg-white-60
+        p.m0
+          strong White, 60% opacity
+          br
+          | $bg-white-60
+          br
+          small: em (Text defaults to black)
+        a.m0.small(href): em (Links default to green)
+      .cell.p2.bg-black
+        p.m0
+          strong Black
+          br
+          | $bg-black
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-black-60
+        p.m0
+          strong Black, 60% opacity
+          br
+          | $bg-black-60
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-gray-dark
+        p.m0
+          strong Gray, dark
+          br
+          | $bg-gray-dark
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-gray
+        p.m0
+          strong Gray
+          br
+          | $bg-gray
+          br
+          small: em (Text defaults to white)
+        a.m0.small(href): em (Links default to light green)
+      .cell.p2.bg-gray-medium
+        p.m0
+          strong Gray, medium
+          br
+          | $bg-gray-medium
+          br
+          small: em (Text defaults to black)
+        a.m0.small(href): em (Links default to dark green)
+      .cell.p2.bg-gray-light
+        p.m0
+          strong Gray, light
+          br
+          | $bg-gray-light
+          br
+          small: em (Text defaults to black)
+        a.m0.small(href): em (Links default to green)
+      .cell.p2.bg-gray-lighter
+        p.m0
+          strong Gray, lighter
+          br
+          | $bg-gray-lighter
+          br
+          small: em (Text defaults to black)
+        a.m0.small(href): em (Links default to green)
+      .cell.p2.bg-gray-lightest
+        p.m0
+          strong Gray, lightest
+          br
+          | $bg-gray-lightest
+          br
+          small: em (Text defaults to black)
+        a.m0.small(href): em (Links default to green)
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Text color options
+    .grid-x.medium-up-3
+      .cell.column-block
+        p.m0.text-blue
+          strong Blue
+          br
+          | $text-blue
+      .cell.column-block
+        p.m0.text-blue-bright
+          strong Blue, bright
+          br
+          | $text-blue-bright
+      .cell.column-block
+        p.m0.text-blue-light
+          strong Blue, light
+          br
+          | $text-blue-light
+      .cell.column-block
+        p.m0.text-blue-medium
+          strong Blue, medium
+          br
+          | $text-blue-medium
+      .cell.column-block
+        p.m0.text-blue-dark
+          strong Blue, dark
+          br
+          | $text-blue-dark
+      .cell.column-block
+        p.m0.text-white.bg-black
+          strong White
+          br
+          | $text-white
+      .cell.column-block
+        p.m0.text-gray-dark
+          strong Gray, dark
+          br
+          | $text-gray-dark
+      .cell.column-block
+        p.m0.text-gray
+          strong Gray 
+          br
+          | $text-gray
+      .cell.column-block
+        p.m0.text-gray-medium
+          strong Gray, medium
+          br
+          | $text-gray-medium
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Border color options
+    .grid-x.grid-margin-x.medium-up-3.flex-container.align-stretch
+      .cell.column-block
+        p.m0.p1.bd-blue-4
+          strong Blue
+          br
+          | $bd-blue
+      .cell.column-block
+        p.m0.p1.bd-blue-light-4
+          strong Blue, light
+          br
+          | $bd-blue-light
+      .cell.column-block
+        p.m0.p1.bd-blue-4
+          strong Blue, medium
+          br
+          | $bd-blue-medium
+      .cell.column-block
+        p.m0.p1.bd-blue-dark-4
+          strong Blue, dark
+          br
+          | $bd-blue-dark
+      .cell.column-block.bg-black.p-half
+        p.m0.p1.bd-white-4
+          strong White
+          br
+          | $bd-white
+      .cell.column-block
+        p.m0.p1.bd-gray-4
+          strong Gray
+          br
+          | $bd-gray 
+      .cell.column-block
+        p.m0.p1.bd-gray-medium-4
+          strong Gray, medium
+          br
+          | $bd-gray-medium
+      .cell.column-block
+        p.m0.p1.bd-gray-light-4
+          strong Gray, light
+          br
+          | $bd-gray-light
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Image overlay SOLID color options
+    .grid-x.grid-margin-x.medium-up-5.flex-container.align-stretch(style="background: url("+siteURL+"/images/transparent-pattern.gif)")
+      .cell.column-block.bgOverlay-blue
+        p.m0.p2.bgOverlay-blue
+          strong Blue
+          br
+          | $bgOverlay-blue
+      .cell.column-block
+        p.m0.p2.bgOverlay-blue-light
+          strong Blue, light
+          br
+          | $bgOverlay-blue-light
+      .cell.column-block
+        p.m0.p2.bgOverlay-blue-dark
+          strong Blue, dark
+          br
+          | $bgOverlay-blue-dark
+      .cell.column-block
+        p.m0.p2.bgOverlay-white
+          strong White
+          br
+          | $bgOverlay-white
+      .cell.column-block
+        p.m0.p2.bgOverlay-black
+          strong Black
+          br
+          | $bgOverlay-black
+
+  .grid-container.mb2
+    .grid-x
+      .cell
+        h2 Image overlay GRADIENT color options
+    .grid-x.grid-margin-x.medium-up-3.flex-container.align-stretch(style="background: url("+siteURL+"/images/transparent-pattern.gif)")
+      .cell.column-block.gradient-overlay-blue
+        .relative.z1
+          p.m0.p2
+            strong Blue
+            br
+            | $gradient-overlay-blue
+      .cell.column-block.gradient-overlay-blue-full
+        .relative.z1
+          p.m0.p2
+            strong Blue, full
+            br
+            | $gradient-overlay-blue-full
+      .cell.column-block.gradient-overlay-blue-angled
+        .relative.z1
+          p.m0.p2
+            strong Blue, angled
+            br
+            | $gradient-overlay-blue-angled
+      .cell.column-block.gradient-overlay-blue-dark
+        .relative.z1
+          p.m0.p2
+            strong Blue, dark
+            br
+            | $gradient-overlay-blue-dark
+      .cell.column-block.gradient-overlay-blue-dark-full
+        .relative.z1
+          p.m0.p2
+            strong Blue, dark full
+            br
+            | $gradient-overlay-blue-dark-full
+      .cell.column-block.gradient-overlay-blue-dark-angled
+        .relative.z1
+          p.m0.p2
+            strong Blue, dark angled
+            br
+            | $gradient-overlay-blue-dark-angled
+      .cell.column-block.gradient-overlay-white
+        .relative.z1
+          p.m0.p2
+            strong White
+            br
+            | $gradient-overlay-white
+      .cell.column-block.gradient-overlay-white-full
+        .relative.z1
+          p.m0.p2
+            strong White, full
+            br
+            | $gradient-overlay-white-full
+      .cell.column-block.gradient-overlay-white-angled
+        .relative.z1
+          p.m0.p2
+            strong White, angled
+            br
+            | $gradient-overlay-white-angled
+      .cell.column-block.gradient-overlay-black
+        .relative.z1
+          p.m0.p2
+            strong Black
+            br
+            | $gradient-overlay-black
+      .cell.column-block.gradient-overlay-black-full
+        .relative.z1
+          p.m0.p2
+            strong Black, full
+            br
+            | $gradient-overlay-black-full
+      .cell.column-block.gradient-overlay-black-angled
+        .relative.z1
+          p.m0.p2
+            strong Black, angled
+            br
+            | $gradient-overlay-black-angled
+
