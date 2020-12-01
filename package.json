@@ -11,7 +11,7 @@
   "devDependencies": {},
   "description": "cognizant component prototypes",
   "dependencies": {
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "darkmode-js": "^1.5.7",
     "flag-icon-css": "^3.5.0",
     "foundation-sites": "^6.6.3",
@@ -24,7 +24,7 @@
     "motion-ui": "^2.0.3",
     "rfs": "^9.0.3",
     "slick-carousel": "^1.8.1",
-    "swiper": "^6.3.2",
+    "swiper": "^6.3.5",
     "what-input": "^5.2.10"
   }
 }

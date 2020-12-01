@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "New \"Run Script\" Step",
@@ -15,7 +15,7 @@
 		"uuidString": "9253C787-D10A-4EB2-B124-2AAE8FEABE33"
 		}
 	],
-"creatorBuild": "32186",
+"creatorBuild": "33081",
 "files": {
 	"/2019-q1-homepagecarousel.pug": {
 		"cB": 0,
@@ -997,7 +997,9 @@
 		"oA": 2,
 		"oAP": "/_BUILD/bower_components/tablesaw/docs/columntoggle-minimap.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/bower_components/tablesaw/docs/mode-switch.gif": {
 		"ft": 4194304,
@@ -1005,7 +1007,9 @@
 		"oA": 2,
 		"oAP": "/_BUILD/bower_components/tablesaw/docs/mode-switch.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/bower_components/tablesaw/docs/sortable.png": {
 		"ft": 32768,
@@ -1016,7 +1020,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/bower_components/tablesaw/docs/stack.gif": {
 		"ft": 4194304,
@@ -1024,7 +1030,9 @@
 		"oA": 2,
 		"oAP": "/_BUILD/bower_components/tablesaw/docs/stack.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/bower_components/tablesaw/docs/swipe-minimap.gif": {
 		"ft": 4194304,
@@ -1032,7 +1040,9 @@
 		"oA": 2,
 		"oAP": "/_BUILD/bower_components/tablesaw/docs/swipe-minimap.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/bower_components/tablesaw/Gruntfile.js": {
 		"bF": 0,
@@ -1531,7 +1541,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/digital-hub-map.pug": {
 		"cB": 0,
@@ -1632,7 +1644,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -1643,7 +1657,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-256x256.png": {
 		"ft": 32768,
@@ -1654,7 +1670,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-36x36.png": {
 		"ft": 32768,
@@ -1665,7 +1683,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-384x384.png": {
 		"ft": 32768,
@@ -1676,7 +1696,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-48x48.png": {
 		"ft": 32768,
@@ -1687,7 +1709,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-512x512.png": {
 		"ft": 32768,
@@ -1698,7 +1722,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-72x72.png": {
 		"ft": 32768,
@@ -1709,7 +1735,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/android-chrome-96x96.png": {
 		"ft": 32768,
@@ -1720,7 +1748,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-114x114-precomposed.png": {
 		"ft": 32768,
@@ -1731,7 +1761,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-114x114.png": {
 		"ft": 32768,
@@ -1742,7 +1774,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-120x120-precomposed.png": {
 		"ft": 32768,
@@ -1753,7 +1787,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-120x120.png": {
 		"ft": 32768,
@@ -1764,7 +1800,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-144x144-precomposed.png": {
 		"ft": 32768,
@@ -1775,7 +1813,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-144x144.png": {
 		"ft": 32768,
@@ -1786,7 +1826,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-152x152-precomposed.png": {
 		"ft": 32768,
@@ -1797,7 +1839,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-152x152.png": {
 		"ft": 32768,
@@ -1808,7 +1852,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-180x180-precomposed.png": {
 		"ft": 32768,
@@ -1819,7 +1865,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-180x180.png": {
 		"ft": 32768,
@@ -1830,7 +1878,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-57x57-precomposed.png": {
 		"ft": 32768,
@@ -1841,7 +1891,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-57x57.png": {
 		"ft": 32768,
@@ -1852,7 +1904,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-60x60-precomposed.png": {
 		"ft": 32768,
@@ -1863,7 +1917,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-60x60.png": {
 		"ft": 32768,
@@ -1874,7 +1930,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-72x72-precomposed.png": {
 		"ft": 32768,
@@ -1885,7 +1943,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-72x72.png": {
 		"ft": 32768,
@@ -1896,7 +1956,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-76x76-precomposed.png": {
 		"ft": 32768,
@@ -1907,7 +1969,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-76x76.png": {
 		"ft": 32768,
@@ -1918,7 +1982,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
@@ -1929,7 +1995,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/apple-touch-icon.png": {
 		"ft": 32768,
@@ -1940,7 +2008,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/browserconfig.xml": {
 		"cB": 0,
@@ -1959,7 +2029,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/favicon-194x194.png": {
 		"ft": 32768,
@@ -1970,7 +2042,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/favicon-32x32.png": {
 		"ft": 32768,
@@ -1981,7 +2055,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/favicon.ico": {
 		"cB": 0,
@@ -2008,7 +2084,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/mstile-150x150.png": {
 		"ft": 32768,
@@ -2019,7 +2097,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/mstile-310x150.png": {
 		"ft": 32768,
@@ -2030,7 +2110,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/mstile-310x310.png": {
 		"ft": 32768,
@@ -2041,7 +2123,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/mstile-70x70.png": {
 		"ft": 32768,
@@ -2052,7 +2136,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/favicons/README.md": {
 		"cB": 0,
@@ -2761,7 +2847,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/2019-q1-homePageCarousel/hp-bg-2019-q1-green.jpg": {
 		"ft": 16384,
@@ -2772,7 +2860,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/2019-q1-homePageCarousel/hp-bg-2019-q1-orange.jpg": {
 		"ft": 16384,
@@ -2783,7 +2873,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/2019-q1-homePageCarousel/hp-headline-2019-q1-aiAnalytics.svg": {
 		"ft": 2097152,
@@ -2854,7 +2946,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-brochures-fanned.png": {
 		"ft": 32768,
@@ -2865,7 +2959,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-brochures.png": {
 		"ft": 32768,
@@ -2876,7 +2972,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-flyer.png": {
 		"ft": 32768,
@@ -2887,7 +2985,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-ipad.png": {
 		"ft": 32768,
@@ -2898,7 +2998,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-ipadPro.png": {
 		"ft": 32768,
@@ -2909,7 +3011,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-letter-stack.png": {
 		"ft": 32768,
@@ -2920,7 +3024,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/_ojd/objectOfDesire-letter.png": {
 		"ft": 32768,
@@ -2931,7 +3037,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/accent-line-blue-green.svg": {
 		"ft": 2097152,
@@ -2972,7 +3080,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/bc-desktop.jpg": {
 		"ft": 16384,
@@ -2983,7 +3093,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/bc-mobile.jpg": {
 		"ft": 16384,
@@ -2994,7 +3106,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/bc-tablet.jpg": {
 		"ft": 16384,
@@ -3005,7 +3119,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/bc_banner_1600x500_final_rev[2].jpg": {
 		"ft": 16384,
@@ -3016,7 +3132,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/blog/misc/mitch-rosen-203803-unsplash-768x512.jpg": {
 		"ft": 16384,
@@ -3027,7 +3145,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/blog/misc/rawpixel-550991-unsplash-200.jpg": {
 		"ft": 16384,
@@ -3038,7 +3158,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/blog/misc/rawpixel-550991-unsplash-768x512.jpg": {
 		"ft": 16384,
@@ -3049,7 +3171,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Betsy-S-Atkins-bw.jpg": {
 		"ft": 16384,
@@ -3060,7 +3184,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Betsy-S-Atkins.jpg": {
 		"ft": 16384,
@@ -3071,7 +3197,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/John-E-Klein-bw.jpg": {
 		"ft": 16384,
@@ -3082,7 +3210,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/John-E-Klein.jpg": {
 		"ft": 16384,
@@ -3093,7 +3223,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/John-M-Dineen-bw.jpg": {
 		"ft": 16384,
@@ -3104,7 +3236,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/John-M-Dineen.jpg": {
 		"ft": 16384,
@@ -3115,7 +3249,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/John-N-Fox-Jr-bw.jpg": {
 		"ft": 16384,
@@ -3126,7 +3262,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/John-N-Fox-Jr.jpg": {
 		"ft": 16384,
@@ -3137,7 +3275,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Jonathan-Chadwick-bw.jpg": {
 		"ft": 16384,
@@ -3148,7 +3288,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Jonathan-Chadwick.jpg": {
 		"ft": 16384,
@@ -3159,7 +3301,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Leo-S-Mackay-Jr-bw.jpg": {
 		"ft": 16384,
@@ -3170,7 +3314,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Leo-S-Mackay-Jr.jpg": {
 		"ft": 16384,
@@ -3181,7 +3327,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Maureen-Breakiron-Evans-bw.jpg": {
 		"ft": 16384,
@@ -3192,7 +3340,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Maureen-Breakiron-Evans.jpg": {
 		"ft": 16384,
@@ -3203,7 +3353,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Michael-Patsalos-Fox-bw.jpg": {
 		"ft": 16384,
@@ -3214,7 +3366,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Michael-Patsalos-Fox.jpg": {
 		"ft": 16384,
@@ -3225,7 +3379,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Robert-E-Weissman-bw.jpg": {
 		"ft": 16384,
@@ -3236,7 +3392,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Robert-E-Weissman.jpg": {
 		"ft": 16384,
@@ -3247,7 +3405,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Zein-Abdalla-bw.jpg": {
 		"ft": 16384,
@@ -3258,7 +3418,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/board-of-directors/Zein-Abdalla.jpg": {
 		"ft": 16384,
@@ -3269,7 +3431,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Icons/icon-caseStudy-communications.svg": {
 		"ft": 2097152,
@@ -3460,7 +3624,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-a-curated-buying-experience.jpg": {
 		"ft": 16384,
@@ -3471,7 +3637,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-a-digital-first-approach.jpg": {
 		"ft": 16384,
@@ -3482,7 +3650,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-a-mobile-app-built-around-consumer-behavior.jpg": {
 		"ft": 16384,
@@ -3493,7 +3663,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-a-mobile-first-approach-means.jpg": {
 		"ft": 16384,
@@ -3504,7 +3676,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-adapting-to-the-digital-consumer.jpg": {
 		"ft": 16384,
@@ -3515,7 +3689,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-algorithms-that-learn.jpg": {
 		"ft": 16384,
@@ -3526,7 +3702,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-attention-to-details.jpg": {
 		"ft": 16384,
@@ -3537,7 +3715,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-automation-and-experts.jpg": {
 		"ft": 16384,
@@ -3548,7 +3728,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-automation-is-the-antidote.jpg": {
 		"ft": 16384,
@@ -3559,7 +3741,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-automation-saves.jpg": {
 		"ft": 16384,
@@ -3570,7 +3754,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-beacons-shine-a-light.jpg": {
 		"ft": 16384,
@@ -3581,7 +3767,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-betting-on-real-bodies.jpg": {
 		"ft": 16384,
@@ -3592,7 +3780,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-big-thinking-global-solutions.jpg": {
 		"ft": 16384,
@@ -3603,7 +3793,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-bringing-healthcare.jpg": {
 		"ft": 16384,
@@ -3614,7 +3806,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-bringing-medical-therapy-home.jpg": {
 		"ft": 16384,
@@ -3625,7 +3819,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-building-communities.jpg": {
 		"ft": 16384,
@@ -3636,7 +3832,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-building-digital-capabilities.jpg": {
 		"ft": 16384,
@@ -3647,7 +3845,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-collaboration-breeds-interoperability.jpg": {
 		"ft": 16384,
@@ -3658,7 +3858,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-communication-and-coordination.jpg": {
 		"ft": 16384,
@@ -3669,7 +3871,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-connected-vending.jpg": {
 		"ft": 16384,
@@ -3680,7 +3884,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-count-on-the-digital-icu.jpg": {
 		"ft": 16384,
@@ -3691,7 +3897,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-crafting-a-bespoke-experience.jpg": {
 		"ft": 16384,
@@ -3702,7 +3910,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-developing-empathetic.jpg": {
 		"ft": 16384,
@@ -3713,7 +3923,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-asset-management-helps-credit-card-holders.jpg": {
 		"ft": 16384,
@@ -3724,7 +3936,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-asset-management-is-driving-force.jpg": {
 		"ft": 16384,
@@ -3735,7 +3949,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-asset-management.jpg": {
 		"ft": 16384,
@@ -3746,7 +3962,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-drives-the-leader.jpg": {
 		"ft": 16384,
@@ -3757,7 +3975,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-equips-insurer.jpg": {
 		"ft": 16384,
@@ -3768,7 +3988,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-insurance-platform.jpg": {
 		"ft": 16384,
@@ -3779,7 +4001,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-overhaul.jpg": {
 		"ft": 16384,
@@ -3790,7 +4014,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digital-powers-the-consumer-experience.jpg": {
 		"ft": 16384,
@@ -3801,7 +4027,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-digitizing-in-store-experience.jpg": {
 		"ft": 16384,
@@ -3812,7 +4040,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-early-detection-of-defects.jpg": {
 		"ft": 16384,
@@ -3823,7 +4053,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-easing-the-growing-pains.jpg": {
 		"ft": 16384,
@@ -3834,7 +4066,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-expanding-rewards-redemption.jpg": {
 		"ft": 16384,
@@ -3845,7 +4079,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-focus-on-patients.jpg": {
 		"ft": 16384,
@@ -3856,7 +4092,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-for-insurance-industry-google-glass.jpg": {
 		"ft": 16384,
@@ -3867,7 +4105,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-from-winning-marathons.jpg": {
 		"ft": 16384,
@@ -3878,7 +4118,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-future-of-auto-financing.jpg": {
 		"ft": 16384,
@@ -3889,7 +4131,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-getting-patients-into-a-routine.jpg": {
 		"ft": 16384,
@@ -3900,7 +4144,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-huawei.jpg": {
 		"ft": 16384,
@@ -3911,7 +4157,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-innovation-in-courier-communications.jpg": {
 		"ft": 16384,
@@ -3922,7 +4170,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-iot-plays-primary-role.jpg": {
 		"ft": 16384,
@@ -3933,7 +4183,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-its-all-fun-and-games.jpg": {
 		"ft": 16384,
@@ -3944,7 +4196,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-keeping-food-fresh.jpg": {
 		"ft": 16384,
@@ -3955,7 +4209,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-key-to-managed-innovation.jpg": {
 		"ft": 16384,
@@ -3966,7 +4222,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-knowledge-becomes-power.jpg": {
 		"ft": 16384,
@@ -3977,7 +4235,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-lean-development.jpg": {
 		"ft": 16384,
@@ -3988,7 +4248,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-omnichannel-strategy.jpg": {
 		"ft": 16384,
@@ -3999,7 +4261,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-opening-the-door-to-millennial-consumers.jpg": {
 		"ft": 16384,
@@ -4010,7 +4274,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-partnership-means-pushing-forward.jpg": {
 		"ft": 16384,
@@ -4021,7 +4287,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-preventing-competitive-ads.jpg": {
 		"ft": 16384,
@@ -4032,7 +4300,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-reduced-downtime-with-real-time-engine-monitoring.jpg": {
 		"ft": 16384,
@@ -4043,7 +4313,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-saving-millions.jpg": {
 		"ft": 16384,
@@ -4054,7 +4326,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-smart-oil-fields.jpg": {
 		"ft": 16384,
@@ -4065,7 +4339,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-social-media.jpg": {
 		"ft": 16384,
@@ -4076,7 +4352,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-solution-to-billing-problem.jpg": {
 		"ft": 16384,
@@ -4087,7 +4365,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-starting-a-mortgage-online.jpg": {
 		"ft": 16384,
@@ -4098,7 +4378,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-staying-competitive.jpg": {
 		"ft": 16384,
@@ -4109,7 +4391,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-subscription-licensing.jpg": {
 		"ft": 16384,
@@ -4120,7 +4404,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-the-big-ideas-of-the-future.jpg": {
 		"ft": 16384,
@@ -4131,7 +4417,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-the-data-science-behind.jpg": {
 		"ft": 16384,
@@ -4142,7 +4430,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-the-right-content-enhances-the-customer-experience.jpg": {
 		"ft": 16384,
@@ -4153,7 +4443,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-too-much-information.jpg": {
 		"ft": 16384,
@@ -4164,7 +4456,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-transavia.jpg": {
 		"ft": 16384,
@@ -4175,7 +4469,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-understanding-the-customer.jpg": {
 		"ft": 16384,
@@ -4186,7 +4482,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-what-happens-when-comfort.jpg": {
 		"ft": 16384,
@@ -4197,7 +4495,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-when-a-mobile-car-rental-app.jpg": {
 		"ft": 16384,
@@ -4208,7 +4508,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-when-digital-and-offline.jpg": {
 		"ft": 16384,
@@ -4219,7 +4521,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-when-money-talks.jpg": {
 		"ft": 16384,
@@ -4230,7 +4534,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-white-glove-service.jpg": {
 		"ft": 16384,
@@ -4241,7 +4547,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-with-data-science.jpg": {
 		"ft": 16384,
@@ -4252,7 +4560,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-assets/caseStudy-with-internet-of-things.jpg": {
 		"ft": 16384,
@@ -4263,7 +4573,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-a-connected-kitchen-th.jpg": {
 		"ft": 16384,
@@ -4274,7 +4586,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-a-curated-buying-experience-th.jpg": {
 		"ft": 16384,
@@ -4285,7 +4599,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-a-digital-first-approach-th.jpg": {
 		"ft": 16384,
@@ -4296,7 +4612,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-a-mobile-app-built-around-th.jpg": {
 		"ft": 16384,
@@ -4307,7 +4625,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-a-mobile-first-approach-means-th.jpg": {
 		"ft": 16384,
@@ -4318,7 +4638,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-adapting-to-the-digital-consumer-th.jpg": {
 		"ft": 16384,
@@ -4329,7 +4651,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-algorithms-that-learn-th.jpg": {
 		"ft": 16384,
@@ -4340,7 +4664,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-attention-to-details-th.jpg": {
 		"ft": 16384,
@@ -4351,7 +4677,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-automation-and-experts-th.jpg": {
 		"ft": 16384,
@@ -4362,7 +4690,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-automation-is-the-antidote-th.jpg": {
 		"ft": 16384,
@@ -4373,7 +4703,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-automation-saves-th.jpg": {
 		"ft": 16384,
@@ -4384,7 +4716,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-beacons-shine-a-light-th.jpg": {
 		"ft": 16384,
@@ -4395,7 +4729,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-betting-on-real-bodies-th.jpg": {
 		"ft": 16384,
@@ -4406,7 +4742,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-big-thinking-global-solutions-th.jpg": {
 		"ft": 16384,
@@ -4417,7 +4755,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-bringing-healthcare-th.jpg": {
 		"ft": 16384,
@@ -4428,7 +4768,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-bringing-medical-therapy-home-th.jpg": {
 		"ft": 16384,
@@ -4439,7 +4781,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-building-communities-th.jpg": {
 		"ft": 16384,
@@ -4450,7 +4794,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-building-digital-capabilities-th.jpg": {
 		"ft": 16384,
@@ -4461,7 +4807,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-collaboration-breeds-interoperability-th.jpg": {
 		"ft": 16384,
@@ -4472,7 +4820,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-communication-and-coordination-th.jpg": {
 		"ft": 16384,
@@ -4483,7 +4833,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-connected-vending-th.jpg": {
 		"ft": 16384,
@@ -4494,7 +4846,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-count-on-the-digital-icu-th.jpg": {
 		"ft": 16384,
@@ -4505,7 +4859,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-crafting-a-bespoke-experience-th.jpg": {
 		"ft": 16384,
@@ -4516,7 +4872,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-developing-empathetic-th.jpg": {
 		"ft": 16384,
@@ -4527,7 +4885,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-asset-management-helps-credit-card-holders-th.jpg": {
 		"ft": 16384,
@@ -4538,7 +4898,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-asset-management-is-driving-force-th.jpg": {
 		"ft": 16384,
@@ -4549,7 +4911,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-asset-management-th.jpg": {
 		"ft": 16384,
@@ -4560,7 +4924,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-drives-the-leader-th.jpg": {
 		"ft": 16384,
@@ -4571,7 +4937,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-equips-insurer-th.jpg": {
 		"ft": 16384,
@@ -4582,7 +4950,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-insurance-platform-th.jpg": {
 		"ft": 16384,
@@ -4593,7 +4963,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-overhaul-th.jpg": {
 		"ft": 16384,
@@ -4604,7 +4976,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digital-powers-the-consumer-experience-th.jpg": {
 		"ft": 16384,
@@ -4615,7 +4989,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-digitizing-in-store-experience-th.jpg": {
 		"ft": 16384,
@@ -4626,7 +5002,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-early-detection-of-defects-th.jpg": {
 		"ft": 16384,
@@ -4637,7 +5015,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-easing-the-growing-pains-th.jpg": {
 		"ft": 16384,
@@ -4648,7 +5028,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-expanding-rewards-redemption-th.jpg": {
 		"ft": 16384,
@@ -4659,7 +5041,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-focus-on-patients-th.jpg": {
 		"ft": 16384,
@@ -4670,7 +5054,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-for-insurance-industry-google-glass-th.jpg": {
 		"ft": 16384,
@@ -4681,7 +5067,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-from-winning-marathons-th.jpg": {
 		"ft": 16384,
@@ -4692,7 +5080,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-future-of-auto-financing-th.jpg": {
 		"ft": 16384,
@@ -4703,7 +5093,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-getting-patients-into-a-routine-th.jpg": {
 		"ft": 16384,
@@ -4714,7 +5106,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-huawei-th.jpg": {
 		"ft": 16384,
@@ -4725,7 +5119,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-innovation-in-courier-communications-th.jpg": {
 		"ft": 16384,
@@ -4736,7 +5132,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-iot-plays-primary-role-th.jpg": {
 		"ft": 16384,
@@ -4747,7 +5145,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-its-all-fun-and-games-th.jpg": {
 		"ft": 16384,
@@ -4758,7 +5158,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-keeping-food-fresh-th.jpg": {
 		"ft": 16384,
@@ -4769,7 +5171,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-key-to-managed-innovation-th.jpg": {
 		"ft": 16384,
@@ -4780,7 +5184,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-knowledge-becomes-power-th.jpg": {
 		"ft": 16384,
@@ -4791,7 +5197,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-lean-development-th.jpg": {
 		"ft": 16384,
@@ -4802,7 +5210,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-omnichannel-strategy-th.jpg": {
 		"ft": 16384,
@@ -4813,7 +5223,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-opening-the-door-to-millennial-consumers-th.jpg": {
 		"ft": 16384,
@@ -4824,7 +5236,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-partnership-means-pushing-forward-th.jpg": {
 		"ft": 16384,
@@ -4835,7 +5249,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-preventing-competitive-ads-th.jpg": {
 		"ft": 16384,
@@ -4846,7 +5262,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-reduced-downtime-with-real-time-engine-monitoring-th.jpg": {
 		"ft": 16384,
@@ -4857,7 +5275,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-saving-millions-th.jpg": {
 		"ft": 16384,
@@ -4868,7 +5288,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-smart-oil-fields-th.jpg": {
 		"ft": 16384,
@@ -4879,7 +5301,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-social-media-th.jpg": {
 		"ft": 16384,
@@ -4890,7 +5314,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-solution-to-billing-problem-th.jpg": {
 		"ft": 16384,
@@ -4901,7 +5327,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-starting-a-mortgage-online-th.jpg": {
 		"ft": 16384,
@@ -4912,7 +5340,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-staying-competitive-th.jpg": {
 		"ft": 16384,
@@ -4923,7 +5353,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-subscription-licensing-th.jpg": {
 		"ft": 16384,
@@ -4934,7 +5366,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-the-big-ideas-of-the-future-th.jpg": {
 		"ft": 16384,
@@ -4945,7 +5379,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-the-data-science-behind-th.jpg": {
 		"ft": 16384,
@@ -4956,7 +5392,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-the-right-content-enhances-the-customer-experience-th.jpg": {
 		"ft": 16384,
@@ -4967,7 +5405,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-too-much-information-th.jpg": {
 		"ft": 16384,
@@ -4978,7 +5418,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-transavia-th.jpg": {
 		"ft": 16384,
@@ -4989,7 +5431,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-understanding-the-customer-th.jpg": {
 		"ft": 16384,
@@ -5000,7 +5444,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-what-happens-when-comfort-th.jpg": {
 		"ft": 16384,
@@ -5011,7 +5457,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-when-a-mobile-car-rental-th.jpg": {
 		"ft": 16384,
@@ -5022,7 +5470,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-when-digital-and-offline-th.jpg": {
 		"ft": 16384,
@@ -5033,7 +5483,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-when-money-talks-th.jpg": {
 		"ft": 16384,
@@ -5044,7 +5496,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-white-glove-service-th.jpg": {
 		"ft": 16384,
@@ -5055,7 +5509,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-with-data-science-th.jpg": {
 		"ft": 16384,
@@ -5066,7 +5522,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/Case-Study-Images-thumbnails-assets/caseStudy-with-internet-of-things-th.jpg": {
 		"ft": 16384,
@@ -5077,7 +5535,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/CDB-logo-lockup-ai-analytics.svg": {
 		"ft": 2097152,
@@ -6728,7 +7188,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/file-download/doc1.jpg": {
 		"ft": 16384,
@@ -6739,7 +7201,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/file-download/doc2.jpg": {
 		"ft": 16384,
@@ -6750,7 +7214,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/file-download/doc3.jpg": {
 		"ft": 16384,
@@ -6761,7 +7227,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/file-download/doc4.jpg": {
 		"ft": 16384,
@@ -6772,7 +7240,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/flags/1x1/ad.svg": {
 		"ft": 2097152,
@@ -11923,7 +12393,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/form-thankYouMesh.jpg": {
 		"ft": 16384,
@@ -11934,7 +12406,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/form_bg.jpg": {
 		"ft": 16384,
@@ -11945,7 +12419,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/bg-cloudMigrate-desktop.jpg": {
 		"ft": 16384,
@@ -11956,7 +12432,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/bg-cloudMigrate-mobile.jpg": {
 		"ft": 16384,
@@ -11967,7 +12445,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/bg-cloudMigrate-tablet.jpg": {
 		"ft": 16384,
@@ -11978,7 +12458,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/caricature-christian-madsbjerg.png": {
 		"ft": 32768,
@@ -11989,7 +12471,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/caricature-philippe-dintrans.png": {
 		"ft": 32768,
@@ -12000,7 +12484,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/536637814.jpg": {
 		"ft": 16384,
@@ -12011,7 +12497,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/597935408.jpg": {
 		"ft": 16384,
@@ -12022,7 +12510,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/602302734.jpg": {
 		"ft": 16384,
@@ -12033,7 +12523,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/618025082.jpg": {
 		"ft": 16384,
@@ -12044,7 +12536,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/629285904.jpg": {
 		"ft": 16384,
@@ -12055,7 +12549,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/629286010.jpg": {
 		"ft": 16384,
@@ -12066,7 +12562,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/820790032.jpg": {
 		"ft": 16384,
@@ -12077,7 +12575,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/829909992.jpg": {
 		"ft": 16384,
@@ -12088,7 +12588,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/843397378.jpg": {
 		"ft": 16384,
@@ -12099,7 +12601,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/CDB-digital-engineering-1025.jpg": {
 		"ft": 16384,
@@ -12110,7 +12614,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/CDB-digital-engineering-640.jpg": {
 		"ft": 16384,
@@ -12121,7 +12627,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/CDB-digital-engineering.jpg": {
 		"ft": 16384,
@@ -12132,7 +12640,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-engineering/TMPL-DST-Accordion.pug": {
 		"cB": 0,
@@ -12153,7 +12663,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-10.jpg": {
 		"ft": 16384,
@@ -12164,7 +12676,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-1025.jpg": {
 		"ft": 16384,
@@ -12175,7 +12689,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-11.jpg": {
 		"ft": 16384,
@@ -12186,7 +12702,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-2.jpg": {
 		"ft": 16384,
@@ -12197,7 +12715,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-3.jpg": {
 		"ft": 16384,
@@ -12208,7 +12728,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-4.jpg": {
 		"ft": 16384,
@@ -12219,7 +12741,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-5.jpg": {
 		"ft": 16384,
@@ -12230,7 +12754,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-6.jpg": {
 		"ft": 16384,
@@ -12241,7 +12767,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-640.jpg": {
 		"ft": 16384,
@@ -12252,7 +12780,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-7.jpg": {
 		"ft": 16384,
@@ -12263,7 +12793,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-8.jpg": {
 		"ft": 16384,
@@ -12274,7 +12806,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation-9.jpg": {
 		"ft": 16384,
@@ -12285,7 +12819,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/digital-transformation/digital-transformation.jpg": {
 		"ft": 16384,
@@ -12296,7 +12832,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/ai-bg1.mp4": {
 		"cB": 0,
@@ -12323,7 +12861,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-connectedProducts-mobile.jpg": {
 		"ft": 16384,
@@ -12334,7 +12874,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-connectedProducts-tablet.jpg": {
 		"ft": 16384,
@@ -12345,7 +12887,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-ai-desktop.jpg": {
 		"ft": 16384,
@@ -12356,7 +12900,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-ai-mobile.jpg": {
 		"ft": 16384,
@@ -12367,7 +12913,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-ai-tablet.jpg": {
 		"ft": 16384,
@@ -12378,7 +12926,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-connectedProducts-desktop.jpg": {
 		"ft": 16384,
@@ -12389,7 +12939,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-connectedProducts-mobile.jpg": {
 		"ft": 16384,
@@ -12400,7 +12952,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-connectedProducts-tablet.jpg": {
 		"ft": 16384,
@@ -12411,7 +12965,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-enterpriseServices-desktop.jpg": {
 		"ft": 16384,
@@ -12422,7 +12978,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-enterpriseServices-mobile.jpg": {
 		"ft": 16384,
@@ -12433,7 +12991,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-enterpriseServices-tablet.jpg": {
 		"ft": 16384,
@@ -12444,7 +13004,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-industryPlatformSolutions-desktop.jpg": {
 		"ft": 16384,
@@ -12455,7 +13017,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-industryPlatformSolutions-mobile.jpg": {
 		"ft": 16384,
@@ -12466,7 +13030,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-industryPlatformSolutions-tablet.jpg": {
 		"ft": 16384,
@@ -12477,7 +13043,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-intelligentProcessAutomation-desktop.jpg": {
 		"ft": 16384,
@@ -12488,7 +13056,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-intelligentProcessAutomation-mobile.jpg": {
 		"ft": 16384,
@@ -12499,7 +13069,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-intelligentProcessAutomation-tablet.jpg": {
 		"ft": 16384,
@@ -12510,7 +13082,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-interactive-desktop.jpg": {
 		"ft": 16384,
@@ -12521,7 +13095,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-interactive-mobile.jpg": {
 		"ft": 16384,
@@ -12532,7 +13108,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-header-interactive-tablet.jpg": {
 		"ft": 16384,
@@ -12543,7 +13121,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-video-ai-analytics-desktop.jpg": {
 		"ft": 16384,
@@ -12554,7 +13134,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-video-ai-analytics-mobile.jpg": {
 		"ft": 16384,
@@ -12565,7 +13147,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-video-ai-analytics-tablet.jpg": {
 		"ft": 16384,
@@ -12576,7 +13160,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-video-ai-analytics.mp4": {
 		"cB": 0,
@@ -12603,7 +13189,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/logo-lockups/bg-video-ai-analytics.webm": {
 		"cB": 0,
@@ -12752,7 +13340,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/mesh.png": {
 		"ft": 32768,
@@ -12763,7 +13353,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/mesh.svg": {
 		"ft": 2097152,
@@ -12800,7 +13392,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/bg-header-video-ai-analytics.mp4": {
 		"cB": 0,
@@ -12835,7 +13429,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/BG_insightToCode.mp4": {
 		"cB": 0,
@@ -12894,7 +13490,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/collaboratoryBanner.mp4": {
 		"cB": 0,
@@ -12929,7 +13527,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/Home-BG-video-banking.mp4": {
 		"cB": 0,
@@ -12948,7 +13548,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/Home-BG-video-lifeSciences.mp4": {
 		"cB": 0,
@@ -12983,7 +13585,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/cdb-video-header-072318.mp4": {
 		"cB": 0,
@@ -13058,7 +13662,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/cdo-video-header-072318.mp4": {
 		"cB": 0,
@@ -13149,7 +13755,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/dst-video-header-072318.mp4": {
 		"cB": 0,
@@ -13240,7 +13848,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DB-640.jpg": {
 		"ft": 16384,
@@ -13251,7 +13861,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DB.jpg": {
 		"ft": 16384,
@@ -13262,7 +13874,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DO-1024.jpg": {
 		"ft": 16384,
@@ -13273,7 +13887,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DO-640.jpg": {
 		"ft": 16384,
@@ -13284,7 +13900,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DO.jpg": {
 		"ft": 16384,
@@ -13295,7 +13913,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-1024-alt.jpg": {
 		"ft": 16384,
@@ -13306,7 +13926,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-1024-alt.png": {
 		"ft": 32768,
@@ -13317,7 +13939,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-1024.jpg": {
 		"ft": 16384,
@@ -13328,7 +13952,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-640-alt.jpg": {
 		"ft": 16384,
@@ -13339,7 +13965,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-640-alt.png": {
 		"ft": 32768,
@@ -13350,7 +13978,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-640.jpg": {
 		"ft": 16384,
@@ -13361,7 +13991,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-alt.jpg": {
 		"ft": 16384,
@@ -13372,7 +14004,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST-alt.png": {
 		"ft": 32768,
@@ -13383,7 +14017,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 80
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/PA-Landing-Banner-DST.jpg": {
 		"ft": 16384,
@@ -13394,7 +14030,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdb-desktop.jpg": {
 		"ft": 16384,
@@ -13405,7 +14043,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdb-mobile.jpg": {
 		"ft": 16384,
@@ -13416,7 +14056,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdb-tablet.jpg": {
 		"ft": 16384,
@@ -13427,7 +14069,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdb.jpg": {
 		"ft": 16384,
@@ -13438,7 +14082,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdo-desktop.jpg": {
 		"ft": 16384,
@@ -13449,7 +14095,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdo-mobile.jpg": {
 		"ft": 16384,
@@ -13460,7 +14108,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdo-tablet.jpg": {
 		"ft": 16384,
@@ -13471,7 +14121,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-cdo.jpg": {
 		"ft": 16384,
@@ -13482,7 +14134,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-dst-desktop.jpg": {
 		"ft": 16384,
@@ -13493,7 +14147,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-dst-mobile.jpg": {
 		"ft": 16384,
@@ -13504,7 +14160,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-dst-tablet.jpg": {
 		"ft": 16384,
@@ -13515,7 +14173,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/header-banners/video-background/practice-area-landing-pages/poster-dst.jpg": {
 		"ft": 16384,
@@ -13526,7 +14186,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/homepage-davos2020-desktop.jpg": {
 		"ft": 16384,
@@ -13537,7 +14199,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/hp-blurb-aiAnalyticsReport.jpg": {
 		"ft": 16384,
@@ -13548,7 +14212,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/hp-blurb-aiAnalyticsReport.svg": {
 		"ft": 2097152,
@@ -13569,7 +14235,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/AI & Analytics/_ASSETS/Artificial Intellige.svg": {
 		"ft": 2097152,
@@ -13638,7 +14306,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/AI & Analytics/AI & Analytics.hype/Resources/Artificial Intellige.svg": {
 		"ft": 2097152,
@@ -13699,7 +14369,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/AI & Analytics/Export/AI & Analytics.html": {
 		"cB": 0,
@@ -13726,7 +14398,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/AI & Analytics/Export/AI & Analytics.hyperesources/aianalytics_hype_generated_script.js": {
 		"bF": 0,
@@ -13755,7 +14429,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/AI & Analytics/Export/AI & Analytics.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/AI & Analytics/Export/AI & Analytics.hyperesources/Can’t-Live-Without.svg": {
 		"ft": 2097152,
@@ -13836,7 +14512,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Backgrounds/background02.jpg": {
 		"ft": 16384,
@@ -13847,7 +14525,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Backgrounds/background03.jpg": {
 		"ft": 16384,
@@ -13858,7 +14538,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Backgrounds/background04.jpg": {
 		"ft": 16384,
@@ -13869,7 +14551,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Backgrounds/background05.jpg": {
 		"ft": 16384,
@@ -13880,7 +14564,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Backgrounds/background06.jpg": {
 		"ft": 16384,
@@ -13891,7 +14577,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Backgrounds/background07.jpg": {
 		"ft": 16384,
@@ -13902,7 +14590,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/_ASSETS/Accelerate Digital T.svg": {
 		"ft": 2097152,
@@ -13943,7 +14633,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/_ASSETS/Intelligent Automati.svg": {
 		"ft": 2097152,
@@ -14012,7 +14704,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Cloud Enablement.hype/Resources/Intelligent Automati.svg": {
 		"ft": 2097152,
@@ -14043,7 +14737,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Cloud Enablement2.hype/data.plist": {
 		"cB": 0,
@@ -14092,7 +14788,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Cloud Enablement2.hype/Resources/Intelligent Automati.svg": {
 		"ft": 2097152,
@@ -14123,7 +14821,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement.html": {
 		"cB": 0,
@@ -14159,7 +14859,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement.hyperesources/Cloud Enablement.svg": {
 		"ft": 2097152,
@@ -14180,7 +14882,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement.hyperesources/cloudenablement_hype_generated_script.js": {
 		"bF": 0,
@@ -14293,7 +14997,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement2.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement2.hyperesources/Cloud Enablement.svg": {
 		"ft": 2097152,
@@ -14314,7 +15020,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Cloud Enablement/Export/Cloud Enablement2.hyperesources/cloudenablement2_hype_generated_script.js": {
 		"bF": 0,
@@ -14406,7 +15114,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Core Modernization/_ASSETS/for the Digital Era.svg": {
 		"ft": 2097152,
@@ -14485,7 +15195,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Core Modernization/Core Modernization.hype/Resources/for the Digital Era.svg": {
 		"ft": 2097152,
@@ -14536,7 +15248,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Core Modernization/Export/Core Modernization.html": {
 		"cB": 0,
@@ -14580,7 +15294,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Core Modernization/Export/Core Modernization.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Core Modernization/Export/Core Modernization.hyperesources/core-modernization.jpg": {
 		"ft": 16384,
@@ -14591,7 +15307,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Core Modernization/Export/Core Modernization.hyperesources/coremodernization_hype_generated_script.js": {
 		"bF": 0,
@@ -14693,7 +15411,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Digital Engineering/_ASSETS/For the App Economy.svg": {
 		"ft": 2097152,
@@ -14752,7 +15472,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Digital Engineering/Digital Engineering.hype/Resources/For the App Economy.svg": {
 		"ft": 2097152,
@@ -14793,7 +15515,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Digital Engineering/Export/Digital Engineering.html": {
 		"cB": 0,
@@ -14827,7 +15551,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Digital Engineering/Export/Digital Engineering.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Digital Engineering/Export/Digital Engineering.hyperesources/digital-engineering.jpg": {
 		"ft": 16384,
@@ -14838,7 +15564,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Digital Engineering/Export/Digital Engineering.hyperesources/digitalengineering_hype_generated_script.js": {
 		"bF": 0,
@@ -14930,7 +15658,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Industry & Platform Solutions/_ASSETS/logo-industry-platform-solutions.svg": {
 		"ft": 2097152,
@@ -15004,7 +15734,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Industry & Platform Solutions/Export/Industry and Platform Solutions.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Industry & Platform Solutions/Export/Industry and Platform Solutions.hyperesources/HYPE-596.full.min.js": {
 		"bF": 0,
@@ -15047,7 +15779,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Industry & Platform Solutions/Export/Industry and Platform Solutions.hyperesources/industryandplatformsolutions_hype_generated_script.js": {
 		"bF": 0,
@@ -15145,7 +15879,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Industry & Platform Solutions/Industry and Platform Solutions.hype/Resources/logo-industry-platform-solutions.svg": {
 		"ft": 2097152,
@@ -15206,7 +15942,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Intelligent Process Automation/_ASSETS/at the Intersection.svg": {
 		"ft": 2097152,
@@ -15227,7 +15965,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Intelligent Process Automation/_ASSETS/Intelligent.svg": {
 		"ft": 2097152,
@@ -15283,7 +16023,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Intelligent Process Automation/Export/Intelligent Process Automation.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Intelligent Process Automation/Export/Intelligent Process Automation.hyperesources/FF7F7D-restorable.plist": {
 		"cB": 0,
@@ -15324,7 +16066,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Intelligent Process Automation/Export/Intelligent Process Automation.hyperesources/Intelligent.svg": {
 		"ft": 2097152,
@@ -15402,7 +16146,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Intelligent Process Automation/Intelligent Process Automation.hype/Resources/Intelligent.svg": {
 		"ft": 2097152,
@@ -15443,7 +16189,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Interactive/_ASSETS/Experience.svg": {
 		"ft": 2097152,
@@ -15464,7 +16212,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Interactive/_ASSETS/logo-interactive.svg": {
 		"ft": 2097152,
@@ -15528,7 +16278,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/HPQ3-banner/Interactive/Export/Interactive.hyperesources/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Interactive/Export/Interactive.hyperesources/Experience.svg": {
 		"ft": 2097152,
@@ -15571,7 +16323,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Interactive/Export/Interactive.hyperesources/interactive_hype_generated_script.js": {
 		"bF": 0,
@@ -15659,7 +16413,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/HPQ3-banner/Interactive/Interactive.hype/Resources/logo-interactive.svg": {
 		"ft": 2097152,
@@ -15710,7 +16466,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/icons/blue-light/Chat-Double-Bubble-2.svg": {
 		"ft": 2097152,
@@ -15791,7 +16549,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/bg-segements-we-serve.jpg": {
 		"ft": 16384,
@@ -15802,7 +16562,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/case-study-01.jpg": {
 		"ft": 16384,
@@ -15813,7 +16575,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/case-study-02.jpg": {
 		"ft": 16384,
@@ -15824,7 +16588,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/case-study-03.jpg": {
 		"ft": 16384,
@@ -15835,7 +16601,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/perspectives01.jpg": {
 		"ft": 16384,
@@ -15846,7 +16614,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/perspectives02.jpg": {
 		"ft": 16384,
@@ -15857,7 +16627,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/industries-revamp/perspectives03.jpg": {
 		"ft": 16384,
@@ -15868,7 +16640,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/layered-text/ai-and-analytics-desktop.svg": {
 		"ft": 2097152,
@@ -15949,7 +16723,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Allen-Shaheen.jpg": {
 		"ft": 16384,
@@ -15960,7 +16736,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Debashis-Chatterjee-bw.jpg": {
 		"ft": 16384,
@@ -15971,7 +16749,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Debashis-Chatterjee.jpg": {
 		"ft": 16384,
@@ -15982,7 +16762,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Dharmendra-Kumar-Sinha-bw.jpg": {
 		"ft": 16384,
@@ -15993,7 +16775,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Dharmendra-Kumar-Sinha.jpg": {
 		"ft": 16384,
@@ -16004,7 +16788,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Francisco-DSouza-bw.jpg": {
 		"ft": 16384,
@@ -16015,7 +16801,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Francisco-DSouza.jpg": {
 		"ft": 16384,
@@ -16026,7 +16814,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Gajen-Kandiah-bw.jpg": {
 		"ft": 16384,
@@ -16037,7 +16827,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Gajen-Kandiah.jpg": {
 		"ft": 16384,
@@ -16048,7 +16840,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/James-Lennox-bw.jpg": {
 		"ft": 16384,
@@ -16059,7 +16853,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/James-Lennox.jpg": {
 		"ft": 16384,
@@ -16070,7 +16866,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Karen-McLoughlin-bw.jpg": {
 		"ft": 16384,
@@ -16081,7 +16879,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Karen-McLoughlin.jpg": {
 		"ft": 16384,
@@ -16092,7 +16892,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Malcolm-Frank-bw.jpg": {
 		"ft": 16384,
@@ -16103,7 +16905,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Malcolm-Frank.jpg": {
 		"ft": 16384,
@@ -16114,7 +16918,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Matthew-Friedrich-bw.jpg": {
 		"ft": 16384,
@@ -16125,7 +16931,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Matthew-Friedrich.jpg": {
 		"ft": 16384,
@@ -16136,7 +16944,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Prasad-Chintamaneni-bw.jpg": {
 		"ft": 16384,
@@ -16147,7 +16957,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Prasad-Chintamaneni.jpg": {
 		"ft": 16384,
@@ -16158,7 +16970,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Raj-Mehta-bw.jpg": {
 		"ft": 16384,
@@ -16169,7 +16983,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Raj-Mehta.jpg": {
 		"ft": 16384,
@@ -16180,7 +16996,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Ramakrishnan-Chandrasekaran-bw.jpg": {
 		"ft": 16384,
@@ -16191,7 +17009,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Ramakrishnan-Chandrasekaran.jpg": {
 		"ft": 16384,
@@ -16202,7 +17022,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Robert-Telesmanic-bw.jpg": {
 		"ft": 16384,
@@ -16213,7 +17035,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Robert-Telesmanic.jpg": {
 		"ft": 16384,
@@ -16224,7 +17048,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Santosh-Thomas-bw.jpg": {
 		"ft": 16384,
@@ -16235,7 +17061,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Santosh-Thomas.jpg": {
 		"ft": 16384,
@@ -16246,7 +17074,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Sean-Middleton-bw.jpg": {
 		"ft": 16384,
@@ -16257,7 +17087,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Sean-Middleton.jpg": {
 		"ft": 16384,
@@ -16268,7 +17100,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Srinivasan-Veeraraghavachary-bw.jpg": {
 		"ft": 16384,
@@ -16279,7 +17113,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Srinivasan-Veeraraghavachary.jpg": {
 		"ft": 16384,
@@ -16290,7 +17126,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Sumithra-Gomatam-bw.jpg": {
 		"ft": 16384,
@@ -16301,7 +17139,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Sumithra-Gomatam.jpg": {
 		"ft": 16384,
@@ -16312,7 +17152,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Venkat-Krishnaswamy-bw.jpg": {
 		"ft": 16384,
@@ -16323,7 +17165,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/leadership-team/Venkat-Krishnaswamy.jpg": {
 		"ft": 16384,
@@ -16334,7 +17178,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/logos/logo-amazon-webServices.svg": {
 		"ft": 2097152,
@@ -16395,7 +17241,147 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/notch-bottom.png": {
+		"ft": 32768,
+		"iS": 5047,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-bottom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/notch-bottom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-bottom.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/notch-square.png": {
+		"ft": 32768,
+		"iS": 2334,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-square.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/notch-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/notch-tall-bottom.png": {
+		"ft": 32768,
+		"iS": 5269,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-tall-bottom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/notch-tall-bottom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-tall-bottom.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/notch-tall.png": {
+		"ft": 32768,
+		"iS": 5878,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-tall.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/notch-tall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-tall.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/notch-top.png": {
+		"ft": 32768,
+		"iS": 5044,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-top.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/notch-top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch-top.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/notch.png": {
+		"ft": 32768,
+		"iS": 5044,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/notch.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/notch.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/PDF-thumbnail.jpg": {
 		"ft": 16384,
@@ -16406,7 +17392,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/perspectives-app-banner-mobile.jpg": {
 		"ft": 16384,
@@ -16417,7 +17405,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/139562453.jpg": {
 		"ft": 16384,
@@ -16428,7 +17418,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/147366616.jpg": {
 		"ft": 16384,
@@ -16439,7 +17431,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/155394588.jpg": {
 		"ft": 16384,
@@ -16450,7 +17444,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/516104040.jpg": {
 		"ft": 16384,
@@ -16461,7 +17457,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/534860643.jpg": {
 		"ft": 16384,
@@ -16472,7 +17470,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/613516392.jpg": {
 		"ft": 16384,
@@ -16483,7 +17483,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/640106220.jpg": {
 		"ft": 16384,
@@ -16494,7 +17496,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/640247872.jpg": {
 		"ft": 16384,
@@ -16505,7 +17509,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/678442225.jpg": {
 		"ft": 16384,
@@ -16516,7 +17522,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/707451155.jpg": {
 		"ft": 16384,
@@ -16527,7 +17535,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/836272842.jpg": {
 		"ft": 16384,
@@ -16538,7 +17548,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/DST-enterpriseCapabilities-bg01.jpg": {
 		"ft": 16384,
@@ -16549,7 +17561,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/DST-enterpriseCapabilities-bg02.jpg": {
 		"ft": 16384,
@@ -16560,7 +17574,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/DST-enterpriseCapabilities-bg03.jpg": {
 		"ft": 16384,
@@ -16571,7 +17587,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/DST-enterpriseCapabilities-bg04.jpg": {
 		"ft": 16384,
@@ -16582,7 +17600,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/tabs/DST-enterpriseCapabilities-bg05.jpg": {
 		"ft": 16384,
@@ -16593,7 +17613,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/images/transparent-pattern.gif": {
 		"ft": 4194304,
@@ -16601,7 +17623,9 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/transparent-pattern.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/video-backgrounds/CDB-Landing-video-background-2019-10-01.mp4": {
 		"cB": 0,
@@ -16684,7 +17708,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 85
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
 		},
 	"/index.pug": {
 		"cB": 0,
@@ -16812,6 +17838,16 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/notch.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/notch.html",
+		"oF": 0,
+		"oS": 1
 		},
 	"/orb.haml": {
 		"cB": 0,
@@ -17538,8 +18574,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -17594,24 +18629,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-case-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-param-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -17630,8 +18661,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -17662,16 +18692,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -17786,44 +18814,35 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -17838,124 +18857,101 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-else-if": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -17966,20 +18962,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-import-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -17998,40 +18990,33 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loss-of-precision": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -18046,100 +19031,84 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-restricted-exports": {
 			"active": 0,
@@ -18150,8 +19119,7 @@
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -18170,40 +19138,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -18214,20 +19175,16 @@
 			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -18238,36 +19195,34 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 1,
@@ -18278,8 +19233,7 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -18290,44 +19244,36 @@
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-backreference": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -18338,12 +19284,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -18390,8 +19334,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -18402,40 +19345,32 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -18450,24 +19385,20 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -18530,8 +19461,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -18558,16 +19488,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -18962,7 +19890,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -18988,7 +19918,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 2,
-		"quality": 85
+		"quality": 85,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -19080,7 +20012,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 80
+		"quality": 80,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -19164,6 +20098,39 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.ai",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "ai",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			},
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.psd",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "psd",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			},
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.sketch",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "sketch",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			}
 		],
 	"npmAbbreviatedPath": "",
 	"npmCreatePackageLock": 1,
@@ -19175,7 +20142,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/storage/framework/sessions,node_modules,_logs,logs,log,.idea,_cache,cache,*.psd",
+	"skippedFoldersString": "/storage/framework/sessions,node_modules,_logs,logs,log,_cache,cache",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
@@ -19481,6 +20448,8 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
+	"webpPresets": {
+		},
 	"websiteRelativeRoot": "_BUILD"
 	},
 "settingsFileVersion": "3"
