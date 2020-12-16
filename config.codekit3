@@ -18394,7 +18394,7 @@
 	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"browserslistString": "defaults, not ie 11, not ie_mob 11, not baidu >= 7.12, not and_qq >= 1.2, not op_mini all",
+	"browserslistString": ">0.2% and last 3 versions, Firefox ESR, not dead, not IE 11",
 	"buildFolderActive": 1,
 	"buildFolderName": "_BUILD",
 	"cleanBuild": 1,
