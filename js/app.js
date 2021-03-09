@@ -50,3 +50,24 @@ $('[data-reveal]').on('closeme.zf.reveal', function() {
 // document.addEventListener("aos:out:super-duper", ({ detail }) => {
 //     console.log("animated out", detail);
 // });
+
+
+var swiperAston = new Swiper('.swiper-container-aston', {
+  // allowSlideNext: false,
+  // allowSlidePrev: false
+  autoHeight: true,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "bullets",
+    clickable: true
+  }
+})
+
+// ======================================================================
+// MODAL OPEN ON PAGE LOAD
+// ======================================================================
+$(document).ready(function() {
+$('#video-modal-ie').foundation('open');
+});
+
+// -----  End of MODAL OPEN ON PAGE LOAD  ----------

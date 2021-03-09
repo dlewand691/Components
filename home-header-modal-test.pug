@@ -1,0 +1,60 @@
+extend __LAYOUT-TEMPLATE.pug
+
+block vars
+  - var pageTitle = "CHANGE_ME"
+  - var siteURL = "https://www.dannylewandowski.com/_cog-DEV/_PROTOTYPING/Components/_BUILD/"
+
+block content
+  //- h1!= pageTitle
+  //- .text-center.bg-gray-light
+  //-   img(src="images/nav-secondary.jpg")
+  //- .text-center
+  //-   img(src="images/nav-primary.jpg")
+  //- .align-middle.text-center.medium-text-left.video-background.bg-pos-center-center(data-interchange="[images/video-backgrounds/ie-bg.jpg, small],[images/video-backgrounds/ie-bg.jpg, medium],[../images/transparent.gif, large]")
+    video.hide-for-small-only#video-in-place-3(data-toggler=".hide" playsinline autoplay loop muted poster="images/video-backgrounds/ie-bg.jpg")
+      source(src="images/video-backgrounds/ie-bg.mp4" type="video/mp4")
+    .grid-container#video-in-place-1(data-toggler=".hide")
+      .grid-x.grid-padding-x.align-middle.py5.medium-h80vh
+        .cell.medium-auto.medium-offset-1
+          h1.lh1 Intuition engineered
+          p With IoT, Al, software and cloud, Cognizant engineers businesses to anticipate expectations and act instantly.
+        .cell.medium-auto
+          a.text-white.super-size.link-coverAll(data-toggle="video-in-place-1 video-in-place-2 video-in-place-3")
+            i.play-button.text-center
+              p.text-heavy.tiny.mt1 WATCH NOW
+    .hide.bg-black.py4.medium-py2#video-in-place-2(data-toggler=".hide")
+      .grid-container
+        button.close-button(aria-label="Close alert", type="button", data-close="")
+          span(aria-hidden="true" data-toggle="video-in-place-1 video-in-place-2 video-in-place-3") &times;
+        .grid-x.grid-padding-x
+          .cell
+            .responsive-embed.widescreen
+              iframe(src="https://www.youtube.com/embed/496vDXsr9fw" frameborder="0" allowfullscreen)
+          .cell.text-center.flex-container.align-center-middle
+            a.small.mr2(href="#" data-toggle="video-in-place-1 video-in-place-2 video-in-place-3") CLOSE
+            a.button.arrow.m0(href="#") LEARN MORE
+
+  //- .my6
+  .grid-container.text-center.bg-gray-light
+    img(src="images/ie-page.jpg")
+  a.button.white.arrow(data-open="video-modal-ie") play video
+  .reveal#video-modal-ie(data-reveal data-animation-in="scale-in-up" data-animation-out="scale-out-down")
+    .grid-container.fluid.bg-size-cover#video-in-place-1b(data-toggler=".hide" style="background:url(images/ie-modal-bg.jpg)")
+      .grid-x.grid-padding-x.align-center-middle.px2.py5.medium-h80vh
+        .cell.medium-9.text-white
+          h2.h1.lh1 Now, intuition can be engineered.
+        .cell.medium-3
+          a.text-white.super-size.link-coverAll(data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b")
+            i.play-button.text-center
+              p.text-heavy.tiny.mt1 WATCH NOW
+    .hide.bg-black.py6.medium-py2#video-in-place-2b(data-toggler=".hide")
+      .grid-container
+        .grid-x.grid-padding-x
+          .cell
+            .responsive-embed.widescreen
+              iframe(src="https://www.youtube.com/embed/496vDXsr9fw?modestbranding=1&rel=0" frameborder="0" allowfullscreen)
+          .cell.text-center.flex-container.align-center-middle
+            a.small.mr2(href="#" data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b") CLOSE
+            a.button.arrow.m0(href="#") LEARN MORE
+    button.close-button(data-close aria-label="Close modal" type="button")
+      span(aria-hidden="true") &times;
