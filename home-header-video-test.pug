@@ -1,4 +1,6 @@
 extend __LAYOUT-TEMPLATE.pug
+include ../../_COG-Framework-2020/pug/_navigation.pug
+include ../../_COG-Framework-2020/pug/_footer.pug
 
 block vars
   - var pageTitle = "CHANGE_ME"
@@ -36,32 +38,49 @@ block content
 
   //- .my6
 
-  .text-center.bg-gray-light
-    img(src="images/nav-secondary.jpg")
-  .text-center
-    img(src="images/nav-primary.jpg")
-  .align-middle.text-center.medium-text-left.video-background.bg-pos-center-center(data-interchange="[images/video-backgrounds/ie-bg.jpg, small],[images/video-backgrounds/ie-bg.jpg, medium],[../images/transparent.gif, large]")
-    video.hide-for-small-only#video-in-place-3b(data-toggler=".hide" playsinline autoplay loop muted poster="images/video-backgrounds/ie-bg.jpg")
-      source(src="images/video-backgrounds/ie-bg-dark.mp4" type="video/mp4")
-    .grid-container.fluid#video-in-place-1b(data-toggler=".hide")
-      .grid-x.grid-padding-x.align-middle.py5.medium-h80vh
+  //- .text-center.bg-gray-light
+  //-   img(src="images/nav-secondary.jpg")
+  //- .text-center
+  //-   img(src="images/nav-primary.jpg")
+
+  +subnav(class="theme-default")
+  +primaryNav(class="theme-default")
+
+  .align-middle.text-center.medium-text-left.video-background.bg-pos-center-center(data-interchange="[images/video-backgrounds/ie-bg.jpg, small],[../images/transparent.gif, medium],[../images/transparent.gif, large]")
+    video.hide-for-small-only#ie-video-banner-bg(data-toggler=".hide" playsinline autoplay loop muted poster="images/video-backgrounds/ie-bg.jpg")
+      source(src="images/video-backgrounds/ie-bg.mp4" type="video/mp4")
+    .grid-container.fluid#ie-video-banner-static(data-toggler=".hide")
+      .grid-x.grid-padding-x.align-middle.py5.medium-py0.medium-min-h80vh
         .cell.medium-auto.medium-offset-1.text-white
-          h1.lh1.super-size.mb2 Intuition engineered
+          h1.lh1.mb2 Now, intuition can be engineered.
           h5.text-normal With expertise in AI, IoT, software and cloud, Cognizant engineers businesses to act with the insight and speed of human intuition.
-        .cell.medium-auto
-          a.text-white.super-size.link-coverAll(data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b")
-            i.play-button.text-center
-              p.text-heavy.tiny.mt1 WATCH NOW
-    .hide.bg-black.py6.medium-py2#video-in-place-2b(data-toggler=".hide")
-      .grid-container
-        .grid-x.grid-padding-x
-          .cell
-            .responsive-embed.widescreen
-              iframe(src="https://www.youtube.com/embed/496vDXsr9fw?modestbranding=1&rel=0" frameborder="0" allowfullscreen)
-          .cell.text-center.flex-container.align-center-middle
-            a.small.mr2(href="#" data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b") CLOSE
-            a.button.arrow.m0(href="#") LEARN MORE
-      button.close-button(aria-label="Close alert", type="button", data-close="")
-        span(aria-hidden="true" data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b") &times;
+        .cell.medium-3.flex-container.align-center.large-align-left
+          a.open-button-trigger.text-white.text-center.link-coverAll(data-toggle="ie-video-banner-static ie-video-banner-youtube ie-video-banner-bg")
+            i.play-button.super-size
+            .text-heavy.tiny.mt1 WATCH NOW
+    .hide.bg-black#ie-video-banner-youtube(data-toggler=".hide")
+      .grid-container.w100.py5.medium-py0.medium-min-h80vh
+        .grid-x.w100
+          .cell.align-self-bottom
+            .responsive-embed.widescreen.m0
+              iframe#youtube-video(src="https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0" autoplay="1" frameborder="0" allowfullscreen)
+          .cell.large-align-self-middle.text-center.py1
+            .grid-x.align-center-middle.w100
+              .cell.large-shrink.small-order-2.large-order-1.mt1.large-mt0.large-mr1
+                a.close-button-trigger.small(href="#" data-toggle="ie-video-banner-static ie-video-banner-youtube ie-video-banner-bg") CLOSE
+              .cell.large-shrink.small-order-1.large-order-2
+                a.button.arrow.m0(href="#") EXPERIENCE MORE
+      button.close-button.close-button-trigger(aria-label="Close alert", type="button", data-close)
+        span(aria-hidden="true" data-toggle="ie-video-banner-static ie-video-banner-youtube ie-video-banner-bg") &times;
 
   .mb10
+
+  block extraScripts
+    script.
+      $('.open-button-trigger').click(function(){
+        $('#youtube-video').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1')
+      });
+
+      $('.close-button-trigger').click(function(){
+        $('#youtube-video').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0')
+      });
