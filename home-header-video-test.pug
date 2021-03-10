@@ -49,7 +49,7 @@ block content
           h1.lh1.super-size.mb2 Intuition engineered
           h5.text-normal With expertise in AI, IoT, software and cloud, Cognizant engineers businesses to act with the insight and speed of human intuition.
         .cell.medium-auto
-          a.text-white.super-size.link-coverAll(data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b")
+          a#open-button-trigger.text-white.super-size.link-coverAll(data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b")
             i.play-button.text-center
               p.text-heavy.tiny.mt1 WATCH NOW
     .hide.bg-black.py6.medium-py2#video-in-place-2b(data-toggler=".hide")
@@ -57,11 +57,12 @@ block content
         .grid-x.grid-padding-x
           .cell
             .responsive-embed.widescreen
-              iframe(src="https://www.youtube.com/embed/496vDXsr9fw?modestbranding=1&rel=0" frameborder="0" allowfullscreen)
+              iframe#youtube-video1(src="https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0" autoplay="1" frameborder="0" allowfullscreen)
           .cell.text-center.flex-container.align-center-middle
-            a.small.mr2(href="#" data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b") CLOSE
-            a.button.arrow.m0(href="#") LEARN MORE
-      button.close-button(aria-label="Close alert", type="button", data-close="")
+            a.close-button-trigger.small.mr2(href="#" data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b") CLOSE
+            a.close-button-trigger.button.arrow.m0(href="#") LEARN MORE
+      button.close-button.close-button-trigger(aria-label="Close alert", type="button", data-close="")
         span(aria-hidden="true" data-toggle="video-in-place-1b video-in-place-2b video-in-place-3b") &times;
-
+        
+      script(src='node_modules/jquery/dist/jquery.min.js')
   .mb10

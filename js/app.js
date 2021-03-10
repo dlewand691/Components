@@ -70,4 +70,15 @@ $(document).ready(function() {
 $('#video-modal-ie').foundation('open');
 });
 
+
 // -----  End of MODAL OPEN ON PAGE LOAD  ----------
+
+// youtube autoplay
+
+$('#open-button-trigger').click(function(){
+  $('#youtube-video1').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1')
+});
+
+$('.close-button-trigger').click(function(){
+  $('#youtube-video1').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0')
+});
