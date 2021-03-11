@@ -18224,48 +18224,6 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/scss\/app.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/_BUILD\/css\/app.css",
-      "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/scss\/gic.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/_BUILD\/css\/gic.css",
-      "oF" : 1,
-      "oS" : 3,
-      "pg" : 2,
-      "sct" : 0
-    },
-    "\/scss\/rte.scss" : {
-      "aP" : 1,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 1,
-      "oAP" : "\/_BUILD\/css\/rte.css",
-      "oF" : 1,
-      "oS" : 0,
-      "pg" : 2,
-      "sct" : 1
-    },
     "\/search-alert.pug" : {
       "cB" : 1,
       "cOD" : 1,
@@ -18353,26 +18311,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_BUILD\/typography.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/Users\/m_554319\/Dropbox\/My Mac (AMBUS100715)\/Desktop\/_COGNIZANT DEVELOPMENT\/_COG-Framework-2020\/pug\/_footer.pug" : {
-      "cB" : 1,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/_BUILD\/Users\/m_554319\/Dropbox\/My Mac (AMBUS100715)\/Desktop\/_COGNIZANT DEVELOPMENT\/_COG-Framework-2020\/pug\/_footer.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/Users\/m_554319\/Dropbox\/My Mac (AMBUS100715)\/Desktop\/_COGNIZANT DEVELOPMENT\/_COG-Framework-2020\/pug\/_navigation.pug" : {
-      "cB" : 1,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/_BUILD\/Users\/m_554319\/Dropbox\/My Mac (AMBUS100715)\/Desktop\/_COGNIZANT DEVELOPMENT\/_COG-Framework-2020\/pug\/_navigation.html",
       "oF" : 0,
       "oS" : 0
     },
