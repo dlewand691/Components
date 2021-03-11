@@ -49,10 +49,15 @@ block content
         $('#video-modal-ie').foundation('open');
       });
 
+      var youtube_link = 'https://www.youtube.com/embed/496vDXsr9fw'
+
+      var youtube_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
+      var youtube_no_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
+  
       $('.open-button-trigger').click(function(){
-        $('#youtube-video').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1')
+        $('#youtube-video').attr('src', youtube_autoplay)
       });
 
       $('.close-button-trigger').click(function(){
-        $('#youtube-video').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0')
+        $('#youtube-video').attr('src', youtube_no_autoplay)
       });
