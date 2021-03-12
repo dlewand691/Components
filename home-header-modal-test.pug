@@ -30,14 +30,14 @@ block content
       .grid-x.w100
         .cell
           .responsive-embed.widescreen.m0
-            iframe#youtube-video(src="https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0" autoplay="1" frameborder="0" allowfullscreen)
+            iframe#youtube-video(src="" autoplay="1" frameborder="0" allowfullscreen)
         .cell.text-center.pt1
           .grid-x.align-center-middle.w100
             .cell.large-shrink.small-order-2.large-order-1.mt1.large-mt0.large-mr1
-              a.close-button-trigger.small(href="#" data-toggle="ie-modal-static ie-modal-video") CLOSE
+              a.close-button-trigger.small(data-close data-toggle="ie-modal-static ie-modal-video") CLOSE
             .cell.large-shrink.small-order-1.large-order-2
               a.button.arrow.m0(href="#") EXPERIENCE MORE
-    button.close-button.close-button-trigger(data-close aria-label="Close modal" type="button")
+    button.close-button.close-button-trigger(data-close aria-label="Close modal" type="button" data-toggle="ie-modal-static ie-modal-video")
       span(aria-hidden="true") &times;
 
   .w100vw.h100vh.flex-container.align-center-middle
@@ -49,10 +49,20 @@ block content
         $('#video-modal-ie').foundation('open');
       });
 
+      var youtube_link = 'https://www.youtube.com/embed/496vDXsr9fw'
+
+      var youtube_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
+
+      var youtube_no_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
+
       $('.open-button-trigger').click(function(){
-        $('#youtube-video').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1')
+        $('#youtube-video').attr('src', youtube_autoplay)
       });
 
       $('.close-button-trigger').click(function(){
-        $('#youtube-video').attr('src', 'https://www.youtube.com/embed/496vDXsr9fw?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0')
+        $('#youtube-video').attr('src', youtube_no_autoplay);
       });
+
+      $(document).on("closed.zf.reveal", function(){
+        $('#youtube-video').attr('src', youtube_no_autoplay)
+        });
