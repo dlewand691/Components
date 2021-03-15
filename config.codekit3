@@ -2925,6 +2925,26 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/home-header-modal-test.pug" : {
+      "cB" : 1,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/home-header-modal-test.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/home-header-video-test.pug" : {
+      "cB" : 1,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/home-header-video-test.html",
+      "oF" : 0,
+      "oS" : 0
+    },
     "\/Icon\r" : {
       "cB" : 0,
       "ft" : 8192,

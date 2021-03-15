@@ -77,19 +77,24 @@ block content
 
   block extraScripts
     script.
-      var youtube_link = 'https://www.youtube.com/embed/496vDXsr9fw'
+      //- var youtube_link = 'https://www.youtube.com/embed/496vDXsr9fw'
 
-      var youtube_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
-      var youtube_no_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
-<<<<<<< HEAD
+      //- var youtube_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
+      //- var youtube_no_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
+      var youtubeUrl = 'https://www.youtube.com/embed/496vDXsr9fw'
 
-=======
-  
->>>>>>> 10b311ce93428e8ff09981519dea883f1be86491
-      $('.open-button-trigger').click(function(){
-        $('#youtube-video').attr('src', youtube_autoplay)
+      var youtubeAutoplay = youtubeUrl + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
+
+      var youtubeNoAutoplay = youtubeUrl + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
+
+      var srcReplace = function (youtubePlay){
+        $('#youtube-video').attr('src', youtubePlay)
+      }
+
+       $('.open-button-trigger').click(function(){
+        srcReplace(youtubeAutoplay)
       });
 
       $('.close-button-trigger').click(function(){
-        $('#youtube-video').attr('src', youtube_no_autoplay)
+        srcReplace(youtubeNoAutoplay)
       });
