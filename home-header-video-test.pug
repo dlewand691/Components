@@ -7,42 +7,6 @@ block vars
   - var siteURL = "https://www.dannylewandowski.com/_cog-DEV/_PROTOTYPING/Components/_BUILD/"
 
 block content
-  //- h1!= pageTitle
-  //- .text-center.bg-gray-light
-  //-   img(src="images/nav-secondary.jpg")
-  //- .text-center
-  //-   img(src="images/nav-primary.jpg")
-  //- .align-middle.text-center.medium-text-left.video-background.bg-pos-center-center(data-interchange="[images/video-backgrounds/ie-bg.jpg, small],[images/video-backgrounds/ie-bg.jpg, medium],[../images/transparent.gif, large]")
-    video.hide-for-small-only#video-in-place-3(data-toggler=".hide" playsinline autoplay loop muted poster="images/video-backgrounds/ie-bg.jpg")
-      source(src="images/video-backgrounds/ie-bg.mp4" type="video/mp4")
-    .grid-container#video-in-place-1(data-toggler=".hide")
-      .grid-x.grid-padding-x.align-middle.py5.medium-h80vh
-        .cell.medium-auto.medium-offset-1
-          h1.lh1 Intuition engineered
-          p With IoT, Al, software and cloud, Cognizant engineers businesses to anticipate expectations and act instantly.
-        .cell.medium-auto
-          a.text-white.super-size.link-coverAll(data-toggle="video-in-place-1 video-in-place-2 video-in-place-3")
-            i.play-button.text-center
-              p.text-heavy.tiny.mt1 WATCH NOW
-    .hide.bg-black.py4.medium-py2#video-in-place-2(data-toggler=".hide")
-      .grid-container
-        button.close-button(aria-label="Close alert", type="button", data-close="")
-          span(aria-hidden="true" data-toggle="video-in-place-1 video-in-place-2 video-in-place-3") &times;
-        .grid-x.grid-padding-x
-          .cell
-            .responsive-embed.widescreen
-              iframe(src="https://www.youtube.com/embed/496vDXsr9fw" frameborder="0" allowfullscreen)
-          .cell.text-center.flex-container.align-center-middle
-            a.small.mr2(href="#" data-toggle="video-in-place-1 video-in-place-2 video-in-place-3") CLOSE
-            a.button.arrow.m0(href="#") LEARN MORE
-
-  //- .my6
-
-  //- .text-center.bg-gray-light
-  //-   img(src="images/nav-secondary.jpg")
-  //- .text-center
-  //-   img(src="images/nav-primary.jpg")
-
   +subnav(class="theme-default")
   +primaryNav(class="theme-default")
 
@@ -77,15 +41,18 @@ block content
 
   block extraScripts
     script.
-      var youtube_link = 'https://www.youtube.com/embed/496vDXsr9fw'
+      var youtubeUrl = 'https://www.youtube.com/embed/496vDXsr9fw'
+      var youtubeAutoplay = youtubeUrl + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
+      var youtubeNoAutoplay = youtubeUrl + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
 
-      var youtube_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0&autoplay=1&autoplay=1'
-      var youtube_no_autoplay = youtube_link + '?enablejsapi=1&showinfo=0&modestbranding=1&wmode=transparent&controls=1&autohide=1&rel=0'
+      var srcReplace = function (youtubePlay){
+        $('#youtube-video').attr('src', youtubePlay)
+      }
 
       $('.open-button-trigger').click(function(){
-        $('#youtube-video').attr('src', youtube_autoplay)
+        srcReplace(youtubeAutoplay)
       });
 
       $('.close-button-trigger').click(function(){
-        $('#youtube-video').attr('src', youtube_no_autoplay)
+        srcReplace(youtubeNoAutoplay)
       });
