@@ -6,37 +6,57 @@ block vars
   - var pageTitle = "CHANGE_ME"
   - var siteURL = "https://www.dannylewandowski.com/_cog-DEV/_PROTOTYPING/Components/_BUILD/"
 
+block extraStyles
+  style.
+    @media screen and (min-width: 0em) and (orientation:portrait) {
+      iframe#youtube-video {
+        width: calc(100vw - 2rem); 
+        height: 25vh;
+      }
+    }
+    @media screen and (min-width: 40em) and (orientation:portrait) {
+      iframe#youtube-video {
+        width: calc(100vw - 2rem); 
+        height: 40vh;
+      }
+    }
+    @media screen and (min-width: 64em) {
+      iframe#youtube-video {
+        width: calc(75vh * 1.77); 
+        height: 82.5vh;
+      }
+    }
+
 block content
   +subnav(class="theme-default")
   +primaryNav(class="theme-default")
 
   .align-middle.text-center.medium-text-left.video-background.bg-pos-center-center(data-interchange="[images/video-backgrounds/ie-bg.jpg, small],[../images/transparent.gif, medium],[../images/transparent.gif, large]")
-    video.hide-for-small-only#ie-video-banner-bg(data-toggler=".hide" playsinline autoplay loop muted poster="images/video-backgrounds/ie-bg.jpg")
+    video.hide-for-small-only(playsinline autoplay loop muted poster="images/video-backgrounds/ie-bg.jpg")
       source(src="images/video-backgrounds/ie-bg.mp4" type="video/mp4")
-    .grid-container.fluid#ie-video-banner-static(data-toggler=".hide")
+    .grid-container.fluid
       .grid-x.grid-padding-x.align-middle.py5.medium-py0.medium-px2.medium-min-h80vh
         .cell.medium-auto.text-white
-          h1.super-size.lh1.mb2.text-light Now, intuition can be engineered.
+          h1.lh1.mb2.text-light.extra-large Now, intuition can be engineered.
           h5.text-normal(style="max-width: 50ch;") With expertise in AI, IoT, software and cloud, Cognizant engineers businesses to act with the insight and speed of human intuition.
-        .cell.medium-2.flex-container.align-center.large-align-left
-          a.open-button-trigger.text-white.text-center.link-coverAll(data-toggle="ie-video-banner-static ie-video-banner-youtube ie-video-banner-bg")
+        .cell.medium-2.flex-container.flex-dir-column.align-center.large-align-left.text-center
+          a.open-button-trigger.text-white.text-center.link-coverAll.mb1.blue-bright-hover(data-open="ie-videoReveal")
             i.play-button.super-size
-            .text-heavy.tiny.mt1 WATCH NOW
-    .hide.bg-black#ie-video-banner-youtube(data-toggler=".hide")
-      .grid-container.w100.py5.medium-py0.medium-min-h80vh
-        .grid-x.w100
-          .cell.align-self-bottom
-            .responsive-embed.widescreen.m0
-              iframe#youtube-video(src="" autoplay="1" frameborder="0" allowfullscreen)
-          .cell.large-align-self-middle.text-center.py1
-            .grid-x.align-center-middle.w100
-              .cell.large-shrink.small-order-2.large-order-1.mt1.large-mt0.large-mr1
-                a.close-button-trigger.small(data-close data-toggle="ie-video-banner-static ie-video-banner-youtube ie-video-banner-bg") CLOSE
-              .cell.large-shrink.small-order-1.large-order-2
-                a.button.arrow.m0(href="#") EXPERIENCE MORE
-      button.close-button.close-button-trigger(aria-label="Close alert", type="button", data-close data-toggle="ie-video-banner-static ie-video-banner-youtube ie-video-banner-bg")
-        span(aria-hidden="true") &times;
+            .text-heavy.mt1 WATCH NOW
+          p.text-white.type-sidelines
+            span OR
+          a.arrow.white.hollow.blue-bright-hover.block.z2(href="#") EXPERIENCE MORE
 
+  #ie-videoReveal.reveal.full.text-center.align-middle(data-reveal data-animation-in="slide-in-up" data-animation-out="slide-out-down")
+    .flex-container.flex-dir-column.align-center.h100
+      iframe#youtube-video.mb1.wh100(src="" autoplay="1" frameborder="0" allowfullscreen )
+      .grid-container.grid-x.grid-padding-x.align-center-middle
+        .cell.large-shrink.small-order-2.large-order-1.large-mt0.large-mr1
+          a.close-button-trigger.small(data-close) CLOSE
+        .cell.large-shrink.small-order-1.large-order-2
+          a.button.small.arrow.m0(href="#") EXPERIENCE MORE
+    button.close-button.close-button-trigger(data-close aria-label="Close modal" type="button")
+      span(aria-hidden="true") &times;
   .mb10
 
   block extraScripts
