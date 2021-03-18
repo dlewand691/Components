@@ -42,11 +42,11 @@ block content
         .cell.medium-2.flex-container.flex-dir-column.align-center.large-align-left.text-center
           a.open-button-trigger.text-white.text-center.link-coverAll.mb1.blue-bright-hover(data-open="ie-videoReveal")
             i.play-button.super-size
-            .text-heavy.mt1 WATCH NOW
-          p.text-white.sidelines.white OR
+            .text-bold.mt1 WATCH NOW
+          p.text-italic.text-white.sidelines.white or
           a.arrow.white.hollow.blue-bright-hover.block.z2(href="#") EXPERIENCE MORE
 
-  #ie-videoReveal.reveal.full.text-center.align-middle(data-reveal data-animation-in="slide-in-up" data-animation-out="slide-out-down")
+  #ie-videoReveal.reveal.full.text-center.align-middle(data-close-on-esc="false" data-reveal data-animation-in="slide-in-up" data-animation-out="slide-out-down")
     .flex-container.flex-dir-column.align-center.h100
       iframe#youtube-video.mb1.wh100(src="" autoplay="1" frameborder="0" allowfullscreen )
       .grid-container.grid-x.grid-padding-x.align-center-middle
