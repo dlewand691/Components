@@ -1,0 +1,21 @@
+extend __LAYOUT-TEMPLATE.pug
+block vars
+  - var pageTitle = "Header Banners"
+
+block content
+  #header-banner-text-left-video-background
+  .grid-x.grid-padding-x
+    .cell
+      h3 Header Banner, text left, video background
+
+  .grid-x.grid-padding-x.expanded.align-middle.video-background.h500px(style="background-size: cover; background-position: center center;" data-interchange="[images/header-banners/video-background/BG_insightToCode.jpg, small],[images/header-banners/video-background/BG_insightToCode.jpg, medium],[../images/transparent.gif, large]")
+    video.hide-for-small-only(playsinline autoplay loop muted poster="images/header-banners/video-background/BG_insightToCode.jpg")
+      source(src="images/video-backgrounds/davos2020.mp4" type="video/mp4")
+      source(src="images/header-banners/video-background/BG_insightToCode.webm" type="video/webm")
+      source(src="images/header-banners/video-background/BG_insightToCode.ogg" type="video/ogg")
+    .grid-container
+      .grid-x.grid-padding-x.align-middle(style="min-height: 500px")
+        .cell.medium-6.text-white
+          h3(contenteditable="true") Leadership, Belonging & Stewardship to Advance the Fourth Industrial Revolution
+          p(contenteditable="true") Takeaways from the World Economic Forum annual meeting
+          h6.m0(contenteditable="true") 21–24 January 2020, Davos-Klosters, Switzerland

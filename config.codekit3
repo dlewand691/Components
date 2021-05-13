@@ -15,7 +15,7 @@
       "uuidString" : "9253C787-D10A-4EB2-B124-2AAE8FEABE33"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/__LAYOUT-TEMPLATE.pug" : {
       "cB" : 1,
@@ -51,6 +51,12 @@
       "oAP" : "\/_BUILD\/.ftpconfig",
       "oF" : 0
     },
+    "\/.history" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/_BUILD\/.history",
+      "oF" : 0
+    },
     "\/2019-q1-homepagecarousel.pug" : {
       "cB" : 1,
       "cOD" : 1,
@@ -59,6 +65,16 @@
       "oA" : 0,
       "oAP" : "\/_BUILD\/2019-q1-homepagecarousel.html",
       "oF" : 0,
+      "oS" : 0
+    },
+    "\/2021-annual-report.pug" : {
+      "cB" : 1,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/2021-annual-report.html",
+      "oF" : 1,
       "oS" : 0
     },
     "\/accordion.pug" : {
@@ -1592,6 +1608,96 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/10-magnitude-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/10-magnitude-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/bright-wolf-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/bright-wolf-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/code-zero-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/code-zero-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/collaborative-solutions-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/collaborative-solutions-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/ei-technologies-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/ei-technologies-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/inawisdom-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/inawisdom-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/lev-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/lev-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/new-signature-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/new-signature-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/content\/dam\/cognizant_foundation\/Dotcomimage\/tin-roof-software-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/content\/dam\/cognizant_foundation\/Dotcomimage\/tin-roof-software-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/content\/dam\/FM-2019-IDC-DemGen-Microsites\/Paul.Roehrig-134.jpg" : {
       "ft" : 16384,
       "iS" : 42477,
@@ -1622,6 +1728,22 @@
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
+    },
+    "\/details examples.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/details examples.html",
+      "oF" : 0
+    },
+    "\/details-dialog-element demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/details-dialog-element demo.html",
+      "oF" : 0
     },
     "\/digital-hub-map.pug" : {
       "cB" : 1,
@@ -2403,321 +2525,321 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Bold.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Bold.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Bold.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Bold.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Bold.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Bold.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Bold.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-BoldItalic.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Heavy.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-HeavyItalic.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Italic.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Italic.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Italic.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Italic.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Italic.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Italic.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Italic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Italic.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Light.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Light.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Light.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Light.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Light.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Light.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Light.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Light.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-LightItalic.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Regular.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Regular.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Regular.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Regular.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Regular.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Regular.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Regular.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Regular.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Thin.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Thin.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Thin.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Thin.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Thin.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Thin.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-Thin.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-Thin.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.eot" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.eot",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.ttf",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.woff",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/_BUILD\/fonts\/Cognizant-Sans\/CognizantSans-ThinItalic.woff2",
-      "oF" : 0
+      "oF" : 1
     },
     "\/fonts\/Cognizant-Sans\/demo.html" : {
       "cB" : 0,
@@ -2895,6 +3017,16 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/header-banners-video.pug" : {
+      "cB" : 1,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/header-banners-video.html",
+      "oF" : 0,
+      "oS" : 0
+    },
     "\/header-banners.pug" : {
       "cB" : 1,
       "cOD" : 1,
@@ -2932,6 +3064,16 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_BUILD\/home-header-modal-test.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/home-header-video-test-cloud.pug" : {
+      "cB" : 1,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/home-header-video-test-cloud.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -17905,6 +18047,14 @@
       "oAP" : "\/_BUILD\/images\/video-backgrounds\/Cognizant_V056_Long_edited.mp4",
       "oF" : 0
     },
+    "\/images\/video-backgrounds\/cognizanti-header.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/images\/video-backgrounds\/cognizanti-header.mp4",
+      "oF" : 0
+    },
     "\/images\/video-backgrounds\/davos2020.mp4" : {
       "cB" : 0,
       "ft" : 8192,
@@ -17943,11 +18093,19 @@
       "rq" : 75
     },
     "\/images\/video-backgrounds\/ie-bg.mp4" : {
-      "cB" : 0,
+      "cB" : 1,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/images\/video-backgrounds\/ie-bg.mp4",
+      "oF" : 1
+    },
+    "\/images\/video-backgrounds\/ie-cloud.mp4" : {
+      "cB" : 1,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
-      "oAP" : "\/_BUILD\/images\/video-backgrounds\/ie-bg.mp4",
+      "oAP" : "\/_BUILD\/images\/video-backgrounds\/ie-cloud.mp4",
       "oF" : 1
     },
     "\/images\/WE_Hungary.jpg" : {
@@ -18228,14 +18386,14 @@
       "aP" : 1,
       "bl" : 0,
       "dP" : 10,
-      "ec" : 1,
+      "ec" : 0,
       "ft" : 4,
       "ma" : 1,
       "oA" : 0,
       "oAP" : "\/_BUILD\/css\/app.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/scss\/gic.scss" : {
@@ -18333,6 +18491,16 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_BUILD\/test-spotlights.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/test.pug" : {
+      "cB" : 1,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_BUILD\/test.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -18702,7 +18870,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2% and last 3 versions, Firefox ESR, not dead, not IE 11",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 1,
     "buildFolderName" : "_BUILD",
     "cleanBuild" : 1,
@@ -18847,7 +19015,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
@@ -20492,7 +20660,11 @@
       "removeKeyframes" : 0,
       "removeVariables" : 0,
       "safelistEntries" : [
-
+        "\/(swiper)\/",
+        "\/(aos)\/"
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -20504,7 +20676,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "\/storage\/framework\/sessions,node_modules,_logs,logs,log,_cache,cache",
+    "skippedFoldersString" : "\/storage\/framework\/sessions,node_modules,_logs,logs,log,_cache,cache,.history",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,
@@ -20527,6 +20699,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,

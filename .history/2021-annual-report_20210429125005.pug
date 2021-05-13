@@ -1,0 +1,50 @@
+extend __LAYOUT-TEMPLATE.pug
+block vars
+  - var pageTitle = "CHANGE_ME"
+  - var siteURL = "https://www.dannylewandowski.com/_cog-DEV/_PROTOTYPING/Components/_BUILD/"
+
+  style.
+    .bg-gray-light3 {
+      background-color: #e6e6e6 !important;
+    }
+    .bd-b-gray-medium1 {
+      border-bottom: 1px #999 solid;
+    }
+
+block content
+
+  .grid-container
+    .grid-x.grid-margin-x.grid-margin-y.medium-up-2
+      .cell.bg-gray-light3.p1
+        h6 REVENUE
+        h3.h1.text-blue-light.bd-b-gray-medium1.pb1 $16.7B
+        p down 0.8% as reported and 0.7% in constant currency
+          sup 1
+          |  from 2019
+
+      .cell.bg-gray-light3.p1
+        h6 CAPITAL RETURNED
+        h3.h1.text-blue-light.bd-b-gray-medium1.pb1 $2.1B
+        p through dividends and share repurchases
+
+      .cell.bg-gray-light3.p1
+        h6 GAAP OPERATING INCOME
+        h3.h1.text-blue-light.bd-b-gray-medium1.pb1 $2.1B
+        p with 12.7% operating margin
+
+      .cell.bg-gray-light3.p1
+        h6 FREE CASH FLOW
+          sup 2
+        h3.h1.text-blue-light.bd-b-gray-medium1.pb1 $2.9B
+        p comprised of operating cash flow of $3.3B net of capex of $0.4B
+
+      .cell.bg-gray-light3.p1
+        h6 ADJUSTED OPERATING INCOME
+          sup 1
+        h3.h1.text-blue-light.bd-b-gray-medium1.pb1 $2.4B
+        p with 14.4% adjusted operating margin
+          sup 1
+
+      .cell.bg-gray-light3.p1
+        h6 CAPITAL DEPLOYED ON ACQUISITIONS
+        h3.h1.text-blue-light.bd-b-gray-medium1.pb1 $1.1B
